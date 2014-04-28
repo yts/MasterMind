@@ -1,0 +1,7 @@
+<html>
+<h3>Mastermind Game Rules</h3>
+<p>The object of Mastermind is to guess a four peg code within ten attempts. Each peg in this code may be one of six colors with duplicates allowed. After each guess is made, a hint consisting of black and white pegs will be displayed. A black peg means that one of the guessed pegs is correct in color and position, and a white peg means that although the color of a guess peg was correct, its position was not. These hints are not displayed in corresponding order to the code or guess, so it's the player's job to figure out which guessed pegs were correct.</p><br/> 
+<p>Note: In the event of duplicate colors in the code and/or guess, only one hint peg will be given for each time the color appears in both the code and the guess. For example, if the code contains two Blues and the guess contains one, only one hint peg will be displayed. Similarly, if the player guesses two Blues, and the code contains only one, only one hint peg will be displayed. A black hint peg takes precedence over a white one, so if one of the Blues is correct in position and color, a black hint peg will be shown.</p><br/>
+<p>To make a guess, click on the square pegs to change their colors. A left click will change it to the next color, and a right click will change it back to the previous one. After the guess is complete, click the "Guess It!" button to see the hint.</p><br/>
+<p>Guess carefully, and good luck!</p>
+</html>
